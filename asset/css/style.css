@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.clear{
+    clear: both;
+}
+.new_font{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    background-color: #ccc;
+}
+.font-math{
+    font-style: italic;
+    margin: 0 64px;
+}
+
+.margin-top{
+    margin-top: 16px !important;
+}
+.margin-bottom{
+    margin-bottom: 16px !important;
+}
+
+.bold{
+    font-weight: bold; display: inline-block;
+}
+.italic{
+    display: inline-block; font-style: italic;
+}
+
+/* Header + Navigation */
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    height: 56px;
+    background-color: #000;
+}
+
+#header #nav{
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0 16px rgba(2, 30, 242, 0.5);
+}
+
+#nav > li{
+    display: inline-block;
+    list-style-type: none;
+    width: calc(100%/3);
+}
+
+#nav li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 56px;
+    text-align: center;
+}
+
+#nav li:hover > a{
+    background-color: #ccc;
+    color: #000;
+}
+
+/* Content */
+#content{
+    padding: relative;
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content #content1{
+    display: block;
+}
+
+#content #content2{
+    display: none;
+}
+
+#content #content3{
+    display: none;
+}
+
+
+#content .content-header{
+    width: 800px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 32px 0 46px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px #000 solid;
+}
+
+/* text кроме content-header*/
+
+#content .content-box{
+    padding: 0 192px;
+}
+
+#content .about-content{
+    padding: 32px 192px;
+}
+
+#content .text-header{
+    font-weight: bold;
+    padding: 32px 0 16px;
+    font-size: 32px;
+}
+
+#content .text-content{
+    padding-bottom: 16px;
+}
+
+#content .text-content > div, .about-content > div{
+    padding: 6px 0;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    font-size: 32px;
+    padding: 64px 0;
+}
