@@ -50,6 +50,10 @@
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
+.padding-bottom{
+    padding-top: 24px !important;
+    padding-bottom: 16px !important;
+}
 
 /* Header + Navigation */
 #header{
@@ -125,11 +129,11 @@
 /* text кроме content-header*/
 
 #content .content-box{
-    padding: 0 192px;
+    padding: 0 284px;
 }
 
 #content .about-content{
-    padding: 32px 192px;
+    padding: 32px 284px;
 }
 
 #content .text-header{
